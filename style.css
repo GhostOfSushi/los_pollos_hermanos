@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+section{
+    padding-top: 45%;
+    margin: auto;
+    text-align: center;
+    margin-top: 32px;
+    height: 50px;
+    width: 310px;
+}
+
+body{
+    background-image: url(images/Tela\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #EB9F09;
+    background-size: 25% auto;
+}
+
+.menu{
+    width: 310px;
+    height: 50px;
+}
+
+.inicio{
+    font-size: 20px;
+    list-style: none;
+    background-color: #1C8026;
+    padding-top: 4px;
+    border-radius: 10px;
+    height: 48px;
+    width: 309px;
+    gap: 16px;
+}

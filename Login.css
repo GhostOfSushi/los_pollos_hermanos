@@ -1,0 +1,15 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #EB9F09;
+}
+
+div.imagem{
+    text-align: center;
+}
+
+div.formulario{
+    text-align: center;
+}
