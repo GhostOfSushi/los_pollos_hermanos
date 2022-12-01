@@ -1,5 +1,5 @@
 .imagem{
-
+    padding-top: 225px;
     text-align: center;
 }
 
@@ -23,7 +23,7 @@ body{
     background-color: rgba(0, 0, 0, 0.8);
     padding: 15px;
     border-radius: 15px;
-    width: 20%;
+    width: 250px;
 }
 
 fieldset{
