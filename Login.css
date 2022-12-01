@@ -1,5 +1,6 @@
-*{
-    width: 310;
+.imagem{
+
+    text-align: center;
 }
 
 @media (max-width: 310px) {
@@ -13,10 +14,54 @@ body{
     font-family: sans-serif;
 }
 
-div.imagem{
-    text-align: center;
+.box{
+    color: aliceblue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    border-radius: 15px;
+    width: 20%;
 }
 
-div.formulario{
+fieldset{
+    border: 3px solid #EB9F09;
+}
+legend{
+    border: 1px solid #EB9F09;
+    padding: 10px;
     text-align: center;
+    background-color: #EB9F09;
+    border-radius: 8px;
+}
+
+.inputBox{
+    position: relative;
+}
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+
+.labelInput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: 0.5;
+}
+
+.inputUser:focus ~ .labelInput,
+.inputUser:valid ~ .labelInput{
+    top: -20px;
+    font-size: 12px;
+    color: #EB9F09;
 }
