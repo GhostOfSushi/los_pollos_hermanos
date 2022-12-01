@@ -8,6 +8,66 @@
     <link rel="stylesheet" href="Login.css">
 </head>
 <body>
+
+    <h1>Login</h1>
+    <p>Seja  bem vindo(a) ao Los Pollos Hermanos,
+        faça login e aproveite um delicioso banquete.
+    </p>
+    <br>
+    <div class="box">
+        <form action=""></form>
+        <fieldset>
+            <legend><b>Formulario de Clientes</b></legend>
+            <div class="inputBox">
+                <input type="text"name="nome" id="nome" class="inoutUser" required>
+                <label for="nome">Nome completo</label>
+            </div>
+            <br>
+            <div class="inputBox">
+                <input type="text"name="Email" id="Email" class="inoutUser" required>
+                <label for="Email">email</label>
+            </div>
+            <br>
+            <div class="inputBox">
+                <input type="text"name="Telefone" id="Telefone" class="inoutUser" required>
+                <label for="Telefone">Telefone</label>
+            </div>
+            <br>
+            <p>Sexo:</p>
+
+            <input type="radio" name="Genero" value="feminino" required>
+            <label for="feminino">Feminino</label>
+            <br>
+            <input type="radio" name="Genero" value="masculino" required>
+            <label for="masculino">Masculino</label>
+            <br>
+            <input type="radio" name="Genero" value="outro" required>
+            <label for="outro">Outro</label>
+            <br>
+            <div class="inputBox">
+                <label for="data_nascimento"><b>data de nascimento</b></label>
+                <input type="date"name="data_nascimento" id="data_nascimento" class="inoutUser" required>
+            </div>
+            <br>
+            <div class="inputBox">
+                <input type="text"name="cidade" id="cidade" class="inoutUser" required>
+                <label for="cidade">Cidade</label>
+            </div>
+            <br>
+            <div class="inputBox">
+                <input type="text"name="estado" id="estado" class="inoutUser" required>
+                <label for="estado">Estado</label>
+            </div>
+            <br>
+            <div class="inputBox">
+                <input type="text"name="endereço" id="endereço" class="inoutUser" required>
+                <label for="endereço">Endereço</label>
+            </div>
+            <br>
+            <input type="submit" name="submit" id="submit">
+
+        </fieldset>
+    </div>
     <header>
 
     </header>
@@ -19,10 +79,7 @@
             </div>
 
             <div class="formulario">
-                <h1>Login</h1>
-                <p>Seja  bem vindo(a) ao Los Pollos Hermanos,
-                    faça login e aproveite um delicioso banquete.
-                </p>
+
                 <form action="Login.php" method="post"></form>
             </div>
         </section>
