@@ -1,9 +1,16 @@
 *{
-    font-family: sans-serif;
+    width: 310;
+}
+
+@media (max-width: 310px) {
+    *{
+        width: 300;
+    }
 }
 
 body{
     background-color: #EB9F09;
+    font-family: sans-serif;
 }
 
 div.imagem{
